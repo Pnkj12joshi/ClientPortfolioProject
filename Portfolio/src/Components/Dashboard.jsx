@@ -6,6 +6,7 @@ import Services from './Services';
 import Portfolio from './Portfolio';
 import Guarantee from './Guarantee';
 import Contactus from './Contactus';
+import Sutterstock from "../assets/sutterstock.png"
 
 const Dashboard = () => {
   const handlescroll = (id)=>{
@@ -37,7 +38,7 @@ const Dashboard = () => {
       </div>
     </div>
     <div className='flex-1 flex justify-center items-center py-3'>
-    <img src='/src/assets/sutterstock.png' className='w-[200px] h-[200px] md:w-[593px] md:h-[370px]'/>
+    <img src={Sutterstock} className='w-[200px] h-[200px] md:w-[593px] md:h-[370px]'/>
     </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">

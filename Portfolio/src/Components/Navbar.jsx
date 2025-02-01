@@ -6,6 +6,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { IoLogoReddit } from "react-icons/io";
 import { useNavigate } from 'react-router-dom';
 import { FaXTwitter } from "react-icons/fa6";
+import NamePic from "../assets/namepic.png";
 
 const Navbar = ( {handlescroll}) => {
     const navigate = useNavigate();
@@ -26,7 +27,7 @@ const Navbar = ( {handlescroll}) => {
             ))}
         </div>
         <div>
-        <img src='/src/assets/namepic.png' className='w-[500px] h-[250px]'/>
+        <img src={NamePic} className='w-[500px] h-[250px]'/>
         <div className='flex gap-4 text-white  justify-evenly text-[15px] '>
         <p className=' cursor-pointer hover:text-yellow-400' onClick={()=>handlescroll("about")}>About Me</p>
         <p  className=' cursor-pointer hover:text-yellow-400 ' onClick={()=>handlescroll("service")} >Services</p>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Aboutme from "../assets/aboutme.jpeg"
 
 const About = ( {id}) => {
   return (
@@ -6,7 +7,7 @@ const About = ( {id}) => {
      <div  id={id} className='w-screen flex justify-center items-center flex-col gap-2'>
         <div className=' items-center  flex justify-center flex-col gap-2 p-4'>
         <h1 className='text-5xl font-bold'> About Me </h1>
-        <img src='/src/assets/WhatsApp-Image-2019-03-21-at-13.44.54-e1553173956220.jpeg' alt='graphicimage' className='h-[300px] w-[300px]'/>
+        <img src= {Aboutme} alt='graphicimage' className='h-[300px] w-[300px]'/>
         <p className='text-center max-w-[80%] text-gray-600'> My name is Vinayak Agarwal, a passionate digital marketing professional with three years of hands-on experience in the industry. Throughout my career, I have worked extensively in SEO, social media marketing, email marketing, and various other digital strategies that help businesses grow their online presence and connect with their target audience effectively.</p>
         </div>
        </div>
